@@ -41,7 +41,7 @@ Dans ce module, nous aborderons l'architecture et les fonctionnalités de CAS, a
 **Échéances**
 
 * Semaine COM
-  * nom.prenom.SRW3.pdf \(40% de la note finale\)  6 pages Max.
+  * `nom.prenom.SRW3.pdf` \(40% de la note finale\)  6 pages Max.
   * Proof Of Concept \(60% de la note finale\)
 
 #### Introduction
@@ -134,17 +134,17 @@ La double authentification est une méthode d'authentification forte par laquell
 
 Configurez un client de votre choix pour que toutes les requêtes en direction du domaine cpnv-srw3.ch soient redirigé vers le serveur Reverse Proxy
 
-* [ ] [https://wordpress.cpnv-srw3.ch](https://wordpress..cpnv-srw3.ch) → redirection serveur wordpress
-* [ ] [https://wordpress..cpnv-srw3.ch](https://wordpress..cpnv-srw3.ch) \(Authentification User01\)
-* [ ] [https://wordpress..cpnv-srw3.ch](https://wordpress..cpnv-srw3.ch) \(Authentification User02\)
+* [ ] [https://wordpress.cpnv-srw3.ch](https://wordpress..cpnv-srw3.ch) → redirection serveur wordpress en https
+* [ ] [https://wordpress..cpnv-srw3.ch](https://wordpress..cpnv-srw3.ch) \(Authentification `User01`\)
+* [ ] [https://wordpress..cpnv-srw3.ch](https://wordpress..cpnv-srw3.ch) \(Authentification `User02`\)
 * [ ] Changer mot de passe User01 \(password : `Mot2Pa$$301_new`\)
-* [ ] [https://moodle..cpnv-srw3.ch](https://wordpress..cpnv-srw3.ch) → redirection serveur Moodle
-* [ ] [https://moodle..cpnv-srw3.ch](https://wordpress..cpnv-srw3.ch) \(Authentification User01\) → Nouveau mot de passe
-* [ ] [https://moodle..cpnv-srw3.ch](https://wordpress..cpnv-srw3.ch) \(Authentification User02\) → Pas validé
-* [ ] Création d’un utilisateur User03 \(password : `Mot2Pa$$303`\)
-* [ ] Valider l'accès de User03 aux deux serveurs
-* [ ] [https://wordpress..cpnv-srw3.ch](https://wordpress..cpnv-srw3.ch) \(Authentification User03\)
-* [ ] [https://moodle..cpnv-srw3.ch](https://wordpress..cpnv-srw3.ch) \(Authentification User03\)
+* [ ] [https://moodle..cpnv-srw3.ch](https://wordpress..cpnv-srw3.ch) → redirection serveur Moodle en https
+* [ ] [https://moodle..cpnv-srw3.ch](https://wordpress..cpnv-srw3.ch) \(Authentification `User01`\) → Nouveau mot de passe
+* [ ] [https://moodle..cpnv-srw3.ch](https://wordpress..cpnv-srw3.ch) \(Authentification `User02`\) → Pas validé
+* [ ] Création d’un utilisateur `User03` \(password : `Mot2Pa$$303`\)
+* [ ] Valider l'accès de `User03` aux deux serveurs
+* [ ] [https://wordpress..cpnv-srw3.ch](https://wordpress..cpnv-srw3.ch) \(Authentification `User03`\)
+* [ ] [https://moodle..cpnv-srw3.ch](https://wordpress..cpnv-srw3.ch) \(Authentification `User03`\)
 
 {% hint style="info" %}
 **Une grille de correction avec une pondération détaillée vous sera fournie avant la semaine COM**
