@@ -9,7 +9,7 @@ description: >-
 
 ## CAS Enterprise Single Sign-On et Reverse Proxy
 
-![](.gitbook/assets/image%20%283%29.png)
+![](.gitbook/assets/image%20%284%29.png)
 
 CAS, ou Central Authentication Service, est un protocole Open Source à authentification unique pour le Web. CAS donne aux utilisateurs l'accès à plusieurs applications à l'aide d'une seule connexion et permet aux applications Web d'authentifier les utilisateurs sans leur donner accès à leurs mots de passe. CAS comporte un composant serveur Java et diverses bibliothèques client écrites en PHP , PL/ SQL , Java , etc.
 

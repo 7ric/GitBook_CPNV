@@ -4,6 +4,10 @@ description: 'Implémenter une infrastructure (DNS, DHCP et LDAP) sous Linux'
 
 # LIN2
 
+
+
+![](.gitbook/assets/image%20%283%29.png)
+
 ## Introduction
 
 ### Objectifs
