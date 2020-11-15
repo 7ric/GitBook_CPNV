@@ -6,7 +6,7 @@ description: 'Implémenter une infrastructure (DNS, DHCP et LDAP) sous Linux'
 
 
 
-![](.gitbook/assets/image%20%283%29.png)
+![](.gitbook/assets/image%20%285%29.png)
 
 ## Introduction
 
@@ -48,6 +48,8 @@ La configuration des serveurs est définie statiquement. Les clients obtiennent 
 
 ### SRV-LIN2-01
 
+![](.gitbook/assets/image%20%283%29.png)
+
 L’objectif principal de ce module est d’effectuer l’installation et la configuration d’un serveur d’infrastructure \(DNS, DHCP et LDAP\) complet basé sur des briques libres.
 
 * **BIND** \(Berkeley Internet Name Domain\)
@@ -68,6 +70,8 @@ L'administration de serveur se fera exclusivement en ligne de commande et à dis
 
 ### SRV-LIN2-02
 
+![](.gitbook/assets/image%20%284%29.png)
+
 Le second objectif de ce module est de faire découvrir l’installation d’un service Cloud, plus spécifiquement [ownCloud](https://owncloud.org/). L’installation de ownCloud permet de déployer facilement un service cloud permettant, l’hébergement de données, d’agendas, d’images, la synchronisation de ces données entre plusieurs terminaux ainsi que leur partage.
 
 Dans son utilisation basique, l’application permet d'uploader des fichiers via une interface Web ou WebDAV, puis visualiser ces fichiers sous forme d'un bureau en ligne. De nombreuses applications ownCloud viennent se greffer et ajouter des fonctionnalités comme la détection de virus, la journalisation des accès et des changements de fichiers, le versionnage, le chiffrement des fichiers, l’édition de fichiers.
@@ -84,6 +88,8 @@ Le stockage des données des utilisateurs se fera sur le serveur `NAS-LIN2-01`.
 
 #### Authentification SSH par clef
 
+![](.gitbook/assets/image%20%2810%29.png)
+
 Lorsque l’on souhaite se connecter à un serveur via SSH, l’authentification repose par défaut sur un nom d’utilisateur et un mot de passe. Cependant, les mots de passe sont à la fois très peu sécurisés, difficiles à retenir et pénibles à écrire : ils ne sont efficaces face aux ordinateurs qu’à la condition d’être très contraignants, voire inutilisables, pour les humains.
 
 L’authentification par clef permet de concilier ces deux exigences : elle permet une très forte sécurité et de se connecter simplement. Cette authentification fonctionne grâce à trois composants :
@@ -97,6 +103,8 @@ La connexion aux serveurs **SRV-LIN2-01** et **SRV-LIN2-02** sera basée sur une
 {% endhint %}
 
 ### NAS-LIN2-01
+
+![](.gitbook/assets/image%20%288%29.png)
 
 Le troisième objectif de ce module est la mise en production d’un SAN. Le stockage des données utilisateur se fera en utilisant un serveur en **RAID 1** \(logiciel\) à l’aide de la distribution [OpenMediaVault](https://www.openmediavault.org/).
 

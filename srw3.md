@@ -9,7 +9,7 @@ description: >-
 
 ## CAS Enterprise Single Sign-On et Reverse Proxy
 
-![](.gitbook/assets/image%20%284%29.png)
+![](.gitbook/assets/image%20%289%29.png)
 
 CAS, ou Central Authentication Service, est un protocole Open Source à authentification unique pour le Web. CAS donne aux utilisateurs l'accès à plusieurs applications à l'aide d'une seule connexion et permet aux applications Web d'authentifier les utilisateurs sans leur donner accès à leurs mots de passe. CAS comporte un composant serveur Java et diverses bibliothèques client écrites en PHP , PL/ SQL , Java , etc.
 
@@ -53,6 +53,8 @@ Dans ce module vous allez installer un serveur CAS Enterprise Single Sign-On uti
 ![](https://lh3.googleusercontent.com/v9FfX2iVtwhZma9vjZ5F6ej2LpDYag5DE8xV6CS04pUYxjdN8xhoMTSAUeWtF28jA1VqKnbZ9NokLiNqCCFq0lUStm1EZwWdZckHTE1JQ9a83c5UAflCnNxwrkLIzrY3tIffYxHf)
 
 #### Serveur LDAP
+
+![](.gitbook/assets/image%20%283%29.png)
 
 [https://fr.wikipedia.org/wiki/Lightweight\_Directory\_Access\_Protocol](https://fr.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)  
 [https://www.openldap.org/](https://www.openldap.org/)
@@ -105,6 +107,8 @@ moodle.cpnv-srw3.ch → Serveur Moodle
 
 #### Serveur WordPress
 
+![](.gitbook/assets/image%20%2811%29.png)
+
 [http://weblog.plexobject.com/?p=1682](http://weblog.plexobject.com/?p=1682)
 
 WordPress est un système de gestion de contenu gratuit, libre et open-source. Ce logiciel écrit en PHP repose sur une base de données MySQL et est distribué par la fondation WordPress.org.
@@ -115,6 +119,8 @@ WordPress est un système de gestion de contenu gratuit, libre et open-source. C
 
 #### Serveur Moodle
 
+![](.gitbook/assets/image%20%287%29.png)
+
 [https://moodle.org/plugins/auth\_casattras](https://moodle.org/plugins/auth_casattras)
 
 Moodle est une plateforme d'apprentissage en ligne libre distribuée sous la Licence publique générale GNU écrite en PHP. Développée à partir de principes pédagogiques, elle permet de créer des communautés s'instruisant autour de contenus et d'activités.
@@ -124,6 +130,8 @@ Moodle est une plateforme d'apprentissage en ligne libre distribuée sous la Lic
 * Seul l’utilisateur user01 à un compte validé sur ce serveur \(ex. Autoriser seulement les utilisateurs qui font partie du groupe LDAP moodle\)
 
 #### Double authentification \[BONUS\]
+
+![](.gitbook/assets/image%20%286%29.png)
 
 [https://fr.wikipedia.org/wiki/Double\_authentification](https://fr.wikipedia.org/wiki/Double_authentification)  
 [https://apereo.github.io/cas/6.1.x/mfa/DuoSecurity-Authentication.html](https://apereo.github.io/cas/6.1.x/mfa/DuoSecurity-Authentication.html)
