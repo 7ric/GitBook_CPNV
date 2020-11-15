@@ -120,5 +120,34 @@ Pour tester votre infrastructure, **2 machines clientes** seront utilisées. Une
 
 {% file src=".gitbook/assets/lin2-client-windows.ova" caption="LIN2-Client-Windows" %}
 
+## Arborescence des données de l'infrastructure \(Utilisateurs et quotas\)
 
+![](.gitbook/assets/image%20%281%29.png)
+
+{% hint style="info" %}
+La gestion des groupes, des utilisateurs et des droits d’accès sur les partages se fait en utilisant l’annuaire **LDAP** installé sur le serveur `SRV-LIN2-01`.
+{% endhint %}
+
+## Evaluation
+
+### Evaluation et pondération
+
+1. Documentation de mise en service et d’analyse à réaliser sur _GitBook_  [https://app.gitbook.com/](https://app.gitbook.com/) \(**20%**\)
+2. Document de mise en service : script d’installation \(lignes de commande\) et de configuration des serveurs \(modification des fichiers de configuration\) \(**20%**\)
+3. Archive contenant les `OVA` des 3 serveurs configurés et peuplés. \(**10%**\)
+4. POC \(Proof Of Concept\) \(**50%**\)
+
+{% file src=".gitbook/assets/lin2\_poc.pdf" caption="Proof Of Concept \(Grille d\'évaluation\)" %}
+
+Votre document sera évalué selon les critères suivants :
+
+* Solution fonctionnelle et techniquement correcte
+* Justification des choix
+* Reproductibilité
+* Facilité d’implémentation et d’évolution
+* Respect des normes en vigueur \(technique et sécurité\)
+* Respect de l'énoncé et des spécifications de départ
+* Clarté des explications, lisibilité
+* Utilisation de terminologie technique
+* Sources
 
