@@ -52,6 +52,29 @@ Dans ce module vous allez installer un serveur CAS Enterprise Single Sign-On uti
 
 ![](.gitbook/assets/2020_srw3_sit2b.jpg)
 
+{% hint style="info" %}
+Seule la machine Reverse Proxy une interface accessible depuis le WAN.
+{% endhint %}
+
+#### Serveur PROXY
+
+![](.gitbook/assets/image%20%2814%29.png)
+
+[http://www.squid-cache.org/](http://www.squid-cache.org/)
+
+Le serveur **mandataire** \(proxy\) est une machine souvent physiquement située entre un réseau et son accès à Internet. Il fait office à la fois de passerelle pour l'accès à Internet et de cache de pages web.
+
+* Passerelle, parce que tous les accès à Internet passent par le Proxy,
+* Cache, parce que le Proxy conserve en mémoire cache \(sur disque\), une copie des pages consultées par les utilisateurs du réseau. Cela évite de télécharger à nouveau la même page sur le site d'origine,si un utilisateur revient fréquemment dessus.
+
+Il nous permettra ainsi de gérer l'accès à internet aux utilisateurs de notre réseau local en fonction des heures d'accès, des ports de destination d'un service, d'IP sources, etc.
+
+Comme serveur proxy, nous allons utiliser le **serveur Squid** qui est un logiciel libre distribué selon les termes de la licence GNU GPL.
+
+Un **serveur Squid** est un **serveur** mandataire \(**proxy**\) et un mandataire inverse conçu pour relayer les protocoles FTP, HTTP, Gopher, et HTTPS. Contrairement aux **serveurs proxy** classiques, un **serveur Squid** gère toutes les requêtes en un seul processus d'entrée/sortie asynchrone.
+
+![](.gitbook/assets/image%20%2815%29.png)
+
 #### Serveur LDAP
 
 ![](.gitbook/assets/image%20%283%29.png)
