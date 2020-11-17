@@ -75,7 +75,7 @@ Les différents objectifs à atteindre sont les suivants :
 * Choisissez deux machines modèle dont il faut réaliser les images. L'une sous Windows et l'autre sous Debian sans interface graphique. 
 * Inventoriez ces machines sur votre serveur à l'aide du menu de boot PXE de FOG.
 * Créez ensuite deux images types respectivement pour les machines de type Linux et pour les machines de type Windows. Pour chaque image, choisissez le type d'image approprié selon que vos machines disposent de plusieurs disques et partitions.
-* Associez les machines inventoriées à leur image et "uploadez" vos machines sur le serveur en lançant les tâches de remontée d'image. Vérifiez la présence de ces deux images dans le répertoire _`/images_FOG`_.
+* Associez les machines inventoriées à leur image et "uploadez" vos machines sur le serveur en lançant les tâches de remontée d'image. Vérifiez la présence de ces deux images dans le répertoire _`/images_FOG`_ qui doit se trouver sur un disque dédié.
 * Trouvez comment changer le répertoire cible d'upload des images sur le serveur.
 
 ### Déploiement unicast/multicast
