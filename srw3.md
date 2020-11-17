@@ -60,7 +60,8 @@ Seule la machine Reverse Proxy une interface accessible depuis le WAN.
 
 ![](.gitbook/assets/image%20%2814%29.png)
 
-[http://www.squid-cache.org/](http://www.squid-cache.org/)
+[http://www.squid-cache.org/](http://www.squid-cache.org/)  
+[https://fr.wikipedia.org/wiki/Squid\_\(logiciel\)](https://fr.wikipedia.org/wiki/Squid_%28logiciel%29)
 
 Le serveur **mandataire** \(proxy\) est une machine souvent physiquement située entre un réseau et son accès à Internet. Il fait office à la fois de passerelle pour l'accès à Internet et de cache de pages web.
 
@@ -105,7 +106,8 @@ user02 password : Mot2Pa$$302
 ![](https://lh3.googleusercontent.com/lmTcxsdn0kSsBz3AiYupEfvTrr4_5i0JaaaSG0d_d1JrRj1E5lkz3qlp7Ho_PLM-qe7XU0TipdIBvgyz2lRd7iM7PpP2FjPe6UIc9CPqooiNrLOleWd_buyxBa9dmbr-g0kHecHt)
 
 [https://fr.wikipedia.org/wiki/Central\_Authentication\_Service](https://fr.wikipedia.org/wiki/Central_Authentication_Service)  
-[https://www.esup-portail.org/consortium/espace/SSO\_1B/cas/jres/cas-jres2003-article.pdf](https://www.esup-portail.org/consortium/espace/SSO_1B/cas/jres/cas-jres2003-article.pdf)[https://apereo.github.io/cas/5.2.x/index.html](https://apereo.github.io/cas/5.2.x/index.html)
+[https://www.esup-portail.org/consortium/espace/SSO\_1B/cas/jres/cas-jres2003-article.pdf](https://www.esup-portail.org/consortium/espace/SSO_1B/cas/jres/cas-jres2003-article.pdf)  
+[https://apereo.github.io/cas/5.2.x/index.html](https://apereo.github.io/cas/5.2.x/index.html)
 
 CAS est un système d'authentification unique : on s'authentifie sur un site Web, et on est alors authentifié sur tous les sites Web qui utilisent le même serveur CAS. Il évite de s'authentifier à chaque fois qu'on accède à une application en mettant en place un système de tickets.
 
