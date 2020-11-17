@@ -53,7 +53,7 @@ Dans ce module vous allez installer un serveur CAS Enterprise Single Sign-On uti
 ![](.gitbook/assets/2020_srw3_sit2b.jpg)
 
 {% hint style="info" %}
-Seule la machine Reverse Proxy une interface accessible depuis le WAN.
+Seule la machine Reverse Proxy à une interface accessible depuis le WAN.
 {% endhint %}
 
 #### Serveur PROXY
