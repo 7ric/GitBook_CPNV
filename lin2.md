@@ -153,13 +153,13 @@ La gestion des groupes, des utilisateurs et des droits d’accès sur les partag
 
 Votre document sera évalué selon les critères suivants :
 
-* Solution fonctionnelle et techniquement correcte
-* Justification des choix
-* Reproductibilité
-* Facilité d’implémentation et d’évolution
-* Respect des normes en vigueur \(technique et sécurité\)
-* Respect de l'énoncé et des spécifications de départ
-* Clarté des explications, lisibilité
-* Utilisation de terminologie technique
-* Sources
+* `Solution fonctionnelle et techniquement correcte`
+* `Justification des choix`
+* `Reproductibilité`
+* `Facilité d’implémentation et d’évolution`
+* `Respect des normes en vigueur (technique et sécurité)`
+* `Respect de l'énoncé et des spécifications de départ`
+* `Clarté des explications, lisibilité`
+* `Utilisation de terminologie technique`
+* `Sources`
 
