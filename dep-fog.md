@@ -57,6 +57,7 @@ Les différents objectifs à atteindre sont les suivants :
 ### Installation de Free Open Ghost
 
 * Installez FOG sur un serveur Linux dédié au déploiement.
+* Installez un serveur DHCP configurer pour le serveur FOG
 * Ajoutez au contexte un client disposant d'un navigateur afin de prendre la main sur le serveur.
 
 ### Travaux post installation
