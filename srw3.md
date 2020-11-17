@@ -126,19 +126,20 @@ On parle de reverse-proxy pour désigner une application placée en frontal \(di
 Ce serveur possède la seule adresse IP visible depuis le WAN. Il s'appuie sur un serveur DNS local pour la gestion des entête d’hôte afin de rediriger les requêtes sur le bon serveur en aval.
 
 ```text
-wordpress..cpnv-srw3.ch → Serveur WordPress
+wordpress.cpnv-srw3.ch → Serveur WordPress
 moodle.cpnv-srw3.ch → Serveur Moodle
 ```
 
 #### Serveur WordPress
 
-![](.gitbook/assets/image%20%2811%29.png)
-
+[https://fr.wordpress.com/](https://fr.wordpress.com/)  
 [http://weblog.plexobject.com/?p=1682](http://weblog.plexobject.com/?p=1682)
+
+![](.gitbook/assets/image%20%2811%29.png)
 
 WordPress est un système de gestion de contenu gratuit, libre et open-source. Ce logiciel écrit en PHP repose sur une base de données MySQL et est distribué par la fondation WordPress.org.
 
-* wordpress.cpnv-srw3.ch
+* `wordpress.cpnv-srw3.ch`
 * Configuration de la connexion unique \(SSO\) pour WordPress
 * Les utilisateurs user01 et user02 ont un compte validé sur ce serveur
 
