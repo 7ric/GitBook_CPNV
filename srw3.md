@@ -141,19 +141,19 @@ WordPress est un système de gestion de contenu gratuit, libre et open-source. C
 
 * `wordpress.cpnv-srw3.ch`
 * Configuration de la connexion unique \(SSO\) pour WordPress
-* Les utilisateurs user01 et user02 ont un compte validé sur ce serveur
+* Les utilisateurs `user01` et `user02` ont un compte validé sur ce serveur
 
 #### Serveur Moodle
 
-![](.gitbook/assets/image%20%287%29.png)
+​[https://moodle.org/plugins/auth\_casattras](https://moodle.org/plugins/auth_casattras)
 
-[https://moodle.org/plugins/auth\_casattras](https://moodle.org/plugins/auth_casattras)
+![](.gitbook/assets/image%20%287%29.png)
 
 Moodle est une plateforme d'apprentissage en ligne libre distribuée sous la Licence publique générale GNU écrite en PHP. Développée à partir de principes pédagogiques, elle permet de créer des communautés s'instruisant autour de contenus et d'activités.
 
-* moodle.cpnv-srw3.ch
+* `moodle.cpnv-srw3.ch`
 * Configuration de la connexion unique \(SSO\) pour WordPress, ceci pour chacun des deux utilisateurs
-* Seul l’utilisateur user01 à un compte validé sur ce serveur \(ex. Autoriser seulement les utilisateurs qui font partie du groupe LDAP moodle\)
+* Seul l’utilisateur `user01` à un compte validé sur ce serveur \(ex. Autoriser seulement les utilisateurs qui font partie du groupe LDAP moodle\)
 
 #### Double authentification \[BONUS\]
 
@@ -171,16 +171,16 @@ La double authentification est une méthode d'authentification forte par laquell
 Configurez un client de votre choix pour que toutes les requêtes en direction du domaine cpnv-srw3.ch soient redirigé vers le serveur Reverse Proxy
 
 * [ ] [https://wordpress.cpnv-srw3.ch](https://wordpress..cpnv-srw3.ch) → redirection serveur wordpress en https
-* [ ] [https://wordpress..cpnv-srw3.ch](https://wordpress..cpnv-srw3.ch) \(Authentification `User01`\)
-* [ ] [https://wordpress..cpnv-srw3.ch](https://wordpress..cpnv-srw3.ch) \(Authentification `User02`\)
+* [ ] [https://wordpress.cpnv-srw3.ch ](https://wordpress.cpnv-srw3.ch)\(Authentification `User01`\)
+* [ ] [https://wordpress.cpnv-srw3.ch](https://wordpress.cpnv-srw3.ch) \(Authentification `User02`\)
 * [ ] Changer mot de passe User01 \(password : `Mot2Pa$$301_new`\)
-* [ ] [https://moodle..cpnv-srw3.ch](https://wordpress..cpnv-srw3.ch) → redirection serveur Moodle en https
-* [ ] [https://moodle..cpnv-srw3.ch](https://wordpress..cpnv-srw3.ch) \(Authentification `User01`\) → Nouveau mot de passe
-* [ ] [https://moodle..cpnv-srw3.ch](https://wordpress..cpnv-srw3.ch) \(Authentification `User02`\) → Pas validé
+* [ ] [https://moodle.cpnv-srw3.ch](https://moodle.cpnv-srw3.ch) → redirection serveur Moodle en https
+* [ ] [https://moodle.cpnv-srw3.ch](https://moodle.cpnv-srw3.ch) \(Authentification `User01`\) → Nouveau mot de passe
+* [ ] [https://moodle.cpnv-srw3.ch](https://moodle.cpnv-srw3.ch) \(Authentification `User02`\) → Pas validé
 * [ ] Création d’un utilisateur `User03` \(password : `Mot2Pa$$303`\)
 * [ ] Valider l'accès de `User03` aux deux serveurs
-* [ ] [https://wordpress..cpnv-srw3.ch](https://wordpress..cpnv-srw3.ch) \(Authentification `User03`\)
-* [ ] [https://moodle..cpnv-srw3.ch](https://wordpress..cpnv-srw3.ch) \(Authentification `User03`\)
+* [ ] [https://wordpress](https://wordpress.cpnv-srw3.ch)[.cpnv-srw3.ch](https://wordpress.cpnv-srw3.ch) \(Authentification `User03`\)
+* [ ] [https://moodle.cpnv-srw3.ch](https://moodle.cpnv-srw3.ch) \(Authentification `User03`\)
 
 {% hint style="info" %}
 **Une grille de correction avec une pondération détaillée vous sera fournie avant la semaine COM**
