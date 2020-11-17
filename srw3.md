@@ -50,7 +50,7 @@ Dans ce module, nous aborderons l'architecture et les fonctionnalités de CAS, a
 
 Dans ce module vous allez installer un serveur CAS Enterprise Single Sign-On utilisant un annuaire LDAP. Pour plus de sécurité, une double authentification sera mise en place. Un serveur reverse proxy sera utilisé pour la gestion du protocole https et pour rediriger les requêtes sur le bon serveur présent dans le LAN. L'authentification des serveurs SSL ainsi que l’échange d'information entre les serveurs \(WEB,CAS,LDAP…\) doit être sécurisé et utiliser des certificats x509. Toute l'infrastructure sera réalisée sous Linux.
 
-![](https://lh3.googleusercontent.com/v9FfX2iVtwhZma9vjZ5F6ej2LpDYag5DE8xV6CS04pUYxjdN8xhoMTSAUeWtF28jA1VqKnbZ9NokLiNqCCFq0lUStm1EZwWdZckHTE1JQ9a83c5UAflCnNxwrkLIzrY3tIffYxHf)
+![](.gitbook/assets/2020_srw3_sit2b.jpg)
 
 #### Serveur LDAP
 
