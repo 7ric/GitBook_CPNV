@@ -113,11 +113,11 @@ Les différents objectifs à atteindre sont les suivants :
   * 2 G
   * 1 HDD 100 G
 * `FOG_VM_02` \(Modèle Linux\)
-  * 2 G
+  * 1 G
   * 1 HDD 80 G
 * `FOG_VM_03` \(Cible du déploiement Linux\)
-  * 2 G
-  * 1 HDD 50 G
+  * 1 G
+  * 1 HDD 40 G
 * `FOG_VM_04` \(Cible du déploiement Windows\)
   * 2 G
   * 1 HDD 100 G
