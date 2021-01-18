@@ -168,21 +168,47 @@ La double authentification est une méthode d'authentification forte par laquell
 
 #### Proof Of Concept
 
-Configurez un client de votre choix pour que toutes les requêtes en direction du domaine cpnv-srw3.ch soient redirigé vers le serveur Reverse Proxy
-
-* [ ] [https://wordpress.cpnv-srw3.ch](https://wordpress..cpnv-srw3.ch) → redirection serveur wordpress en https
-* [ ] [https://wordpress.cpnv-srw3.ch ](https://wordpress.cpnv-srw3.ch)\(Authentification `User01`\)
-* [ ] [https://wordpress.cpnv-srw3.ch](https://wordpress.cpnv-srw3.ch) \(Authentification `User02`\)
-* [ ] Changer mot de passe User01 \(password : `Mot2Pa$$301_new`\)
-* [ ] [https://moodle.cpnv-srw3.ch](https://moodle.cpnv-srw3.ch) → redirection serveur Moodle en https
-* [ ] [https://moodle.cpnv-srw3.ch](https://moodle.cpnv-srw3.ch) \(Authentification `User01`\) → Nouveau mot de passe
-* [ ] [https://moodle.cpnv-srw3.ch](https://moodle.cpnv-srw3.ch) \(Authentification `User02`\) → Pas validé
-* [ ] Création d’un utilisateur `User03` \(password : `Mot2Pa$$303`\)
-* [ ] Valider l'accès de `User03` aux deux serveurs
-* [ ] [https://wordpress](https://wordpress.cpnv-srw3.ch)[.cpnv-srw3.ch](https://wordpress.cpnv-srw3.ch) \(Authentification `User03`\)
-* [ ] [https://moodle.cpnv-srw3.ch](https://moodle.cpnv-srw3.ch) \(Authentification `User03`\)
+![](.gitbook/assets/image%20%2816%29.png)
 
 {% hint style="info" %}
-**Une grille de correction avec une pondération détaillée vous sera fournie avant la semaine COM**
+Configurez un client de votre choix dans le WAN pour que toutes les requêtes en direction du domaine **cpnv-srw3.ch** soient redirigé vers le serveur Reverse Proxy
+{% endhint %}
+
+Manipulation à réaliser sur le serveur LDAP
+
+* [ ] **2 pts**. - `User01 (password : PwdU$ser1)`et `User02 (password : PwdU$ser2)`dans LDAP
+
+Manipulation à réaliser depuis le WAN
+
+* [ ] **4 pts**. - [https://wordpress.cpnv-srw3.ch](https://wordpress..cpnv-srw3.ch) → redirection serveur wordpress en https \(-2 pts. sans TSL\)
+* [ ] **2 pts -** [https://wordpress.cpnv-srw3.ch ](https://wordpress.cpnv-srw3.ch)\(Authentification CAS `User01 (password : PwdU$ser1)`\)
+* [ ] **2 pts -** [https://wordpress.cpnv-srw3.ch](https://wordpress.cpnv-srw3.ch) \(Authentification CAS `User02 (password : PwdU$ser2)`\)
+
+Manipulation à réaliser sur le serveur LDAP
+
+* [ ] **1 pt. -** Changer mot de passe `User01` \(password : `Mot2Pa$$301_new`\)
+
+Manipulation à réaliser depuis le WAN
+
+* [ ] **4 pts.** - [https://moodle.cpnv-srw3.ch](https://moodle.cpnv-srw3.ch) → redirection serveur Moodle en https \(-2 pts. sans TSL\)
+* [ ] **2 pts. -** [https://moodle.cpnv-srw3.ch](https://moodle.cpnv-srw3.ch) \(Authentification CAS `User01`\) → Nouveau mot de passe
+* [ ] **4 pts.** - [https://moodle.cpnv-srw3.ch](https://moodle.cpnv-srw3.ch) \(Authentification CAS `User02`\) → _Pas autorisé !_
+
+_Manipulation à réaliser sur le serveur LDAP_
+
+* [ ] **1 pt. -** Création d’un nouvelle utilisateur `User03` \(password : `Mot2Pa$$303`\)
+* [ ] **1 pt. -** Autoriser l'accès de `User03` aux deux serveurs
+
+Manipulation à réaliser depuis le WAN
+
+* [ ] **2 pts. -** [https://wordpress](https://wordpress.cpnv-srw3.ch)[.cpnv-srw3.ch](https://wordpress.cpnv-srw3.ch) \(Authentification CAS`User03`\)
+* [ ] **2 pts. -** [https://moodle.cpnv-srw3.ch](https://moodle.cpnv-srw3.ch) \(Authentification CAS`User03`\)
+
+BONUS - Double Authentification
+
+* [ ] **3 pts. -** Installation et configuration de la double authentification 
+
+{% hint style="info" %}
+**30 points au total** \(Note 6.0 fixée à 27 points\)
 {% endhint %}
 
