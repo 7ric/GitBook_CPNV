@@ -107,7 +107,9 @@ user02 password : Mot2Pa$$302
 
 [https://fr.wikipedia.org/wiki/Central\_Authentication\_Service](https://fr.wikipedia.org/wiki/Central_Authentication_Service)  
 [https://www.esup-portail.org/consortium/espace/SSO\_1B/cas/jres/cas-jres2003-article.pdf](https://www.esup-portail.org/consortium/espace/SSO_1B/cas/jres/cas-jres2003-article.pdf)  
-[https://apereo.github.io/cas/5.2.x/index.html](https://apereo.github.io/cas/5.2.x/index.html)
+[https://apereo.github.io/cas/5.2.x/index.html](https://apereo.github.io/cas/5.2.x/index.html)  
+[https://www.keycloak.org/](https://www.keycloak.org/)  
+[https://www.keycloak.org/getting-started/getting-started-docker](https://www.keycloak.org/getting-started/getting-started-docker)
 
 CAS est un système d'authentification unique : on s'authentifie sur un site Web, et on est alors authentifié sur tous les sites Web qui utilisent le même serveur CAS. Il évite de s'authentifier à chaque fois qu'on accède à une application en mettant en place un système de tickets.
 
@@ -160,7 +162,8 @@ Moodle est une plateforme d'apprentissage en ligne libre distribuée sous la Lic
 ![](.gitbook/assets/image%20%286%29.png)
 
 [https://fr.wikipedia.org/wiki/Double\_authentification](https://fr.wikipedia.org/wiki/Double_authentification)  
-[https://apereo.github.io/cas/6.1.x/mfa/DuoSecurity-Authentication.html](https://apereo.github.io/cas/6.1.x/mfa/DuoSecurity-Authentication.html)
+[https://apereo.github.io/cas/6.1.x/mfa/DuoSecurity-Authentication.html](https://apereo.github.io/cas/6.1.x/mfa/DuoSecurity-Authentication.html)  
+[https://osc.github.io/ood-documentation/master/authentication/duo-2fa-with-keycloak.html](https://osc.github.io/ood-documentation/master/authentication/duo-2fa-with-keycloak.html)
 
 La double authentification est une méthode d'authentification forte par laquelle un utilisateur peut accéder à une ressource informatique après avoir présenté deux preuves d'identité distinctes à un mécanisme d'authentification.
 
