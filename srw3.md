@@ -176,13 +176,13 @@ Configurez un client de votre choix dans le WAN pour que toutes les requêtes en
 
 Manipulation à réaliser sur le serveur LDAP
 
-* [ ] **2 pts**. - `User01 (password : PwdU$ser1)`et `User02 (password : PwdU$ser2)`dans LDAP
+* [ ] **2 pts**. - `User01 (password : Mot2Pa$$301)`et `User02 (password : Mot2Pa$$302)`dans LDAP
 
 Manipulation à réaliser depuis le WAN
 
 * [ ] **4 pts**. - [https://wordpress.cpnv-srw3.ch](https://wordpress..cpnv-srw3.ch) → redirection serveur wordpress en https \(-2 pts. sans TSL\)
-* [ ] **2 pts -** [https://wordpress.cpnv-srw3.ch ](https://wordpress.cpnv-srw3.ch)\(Authentification CAS `User01 (password : PwdU$ser1)`\)
-* [ ] **2 pts -** [https://wordpress.cpnv-srw3.ch](https://wordpress.cpnv-srw3.ch) \(Authentification CAS `User02 (password : PwdU$ser2)`\)
+* [ ] **2 pts -** [https://wordpress.cpnv-srw3.ch ](https://wordpress.cpnv-srw3.ch)\(Authentification CAS `User01 (password : Mot2Pa$$301)`\)
+* [ ] **2 pts -** [https://wordpress.cpnv-srw3.ch](https://wordpress.cpnv-srw3.ch) \(Authentification CAS `User02 (password : Mot2Pa$$302)`\)
 
 Manipulation à réaliser sur le serveur LDAP
 
