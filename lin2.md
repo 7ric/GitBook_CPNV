@@ -146,8 +146,7 @@ La gestion des groupes, des utilisateurs et des droits d’accès sur les partag
 
 1. Documentation de mise en service et d’analyse à réaliser sur _GitBook_  [https://app.gitbook.com/](https://app.gitbook.com/) \(**20%**\)
 2. Document de mise en service : script d’installation \(lignes de commande\) et de configuration des serveurs \(modification des fichiers de configuration\) \(**20%**\)
-3. Archive contenant les `OVA` des 3 serveurs configurés et peuplés. \(**10%**\)
-4. POC \(Proof Of Concept\) \(**50%**\)
+3. POC \(Proof Of Concept\) \(**60%**\)
 
 {% file src=".gitbook/assets/lin2\_poc.pdf" caption="Proof Of Concept \(Grille d\'évaluation\)" %}
 
