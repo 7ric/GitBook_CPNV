@@ -30,12 +30,12 @@ Kali Linux est une distribution GNU/Linux sortie le 13 mars 20133, basée sur De
 
 ### Installation d'une VM Kali Linux
 
-Télécharger [http://old.kali.org/kali-images/kali-2020.4/kali-linux-2020.4-installer-netinst-i386.iso](http://old.kali.org/kali-images/kali-2020.4/kali-linux-2020.4-installer-netinst-i386.iso) \(330 Mo\)
+Télécharger [https://cdimage.kali.org/kali-2020.4/kali-linux-2020.4-installer-netinst-amd64.iso](https://cdimage.kali.org/kali-2020.4/kali-linux-2020.4-installer-netinst-amd64.iso) \(471 Mo\)
 
 ![](https://lh3.googleusercontent.com/xw5I2Kl6JXgDUD9IOPxkSopL8w-oEFbvNpN_cfqVzjA7CNIqd1AnD_qPks__p7LwYRqbC8dJLKWSf1RfsbpaDjyTihQmzoMf6mMa7CyTlkAKoqw3y0fYhEsYZ9ZNuQSUDGLDX67a)
 
 {% hint style="info" %}
-Effectuez l'installation de Kali sans interface graphique et sans outils
+Effectuez l'installation de Kali Linux **sans interface graphique et sans outils**
 {% endhint %}
 
 ![](https://lh6.googleusercontent.com/GtpU9044JIiFzzHJxK7g4Zdb5ivwi_Qb1uiR8m-z0jMuqRx-SEl5plBuQL6aQnw2Ll4q8_VXvon5R7pYkj2XTzRMNMqQJLoaGyuoajH6dB1FtsirqUdlD0lhRUNbCdMGkrALxqUk)
