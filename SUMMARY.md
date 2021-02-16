@@ -14,4 +14,8 @@
       * [4. Injections SQL](cfc/ict-182/injections-sql-et-social-engineering/4.-injections-sql.md)
       * [5. Web Shell](cfc/ict-182/injections-sql-et-social-engineering/5.-installation-dun-script-shell-sur-le-serveur-web.md)
       * [6. Social Engineering](cfc/ict-182/injections-sql-et-social-engineering/6.-social-engineering-toolkit.md)
+* [Temp](temp/README.md)
+  * [Metasploitable pour test de pénétration](temp/metasploitable-pour-test-de-penetration/README.md)
+    * [Metasploitable 2 – Enumération réseau avec Nmap, Enum4Linux & Rcpclient](temp/metasploitable-pour-test-de-penetration/metasploitable-2-enumeration-reseau-avec-nmap-enum4linux-and-rcpclient.md)
+    * [Metasploitable 2 – Évaluation de vulnérabilités, installation et scan avec Open-VAS](temp/metasploitable-pour-test-de-penetration/metasploitable-2-evaluation-de-vulnerabilites-installation-et-scan-avec-open-vas.md)
 
