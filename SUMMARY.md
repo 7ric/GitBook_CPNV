@@ -10,7 +10,7 @@
     * [Injections SQL et Social Engineering](cfc/ict-182/injections-sql-et-social-engineering/README.md)
       * [1. PentesterLab](cfc/ict-182/injections-sql-et-social-engineering/1.-pentesterlab.md)
       * [2. Kali Linux](cfc/ict-182/injections-sql-et-social-engineering/2.-kali-linux.md)
-      * [3. Footprinting](cfc/ict-182/injections-sql-et-social-engineering/3.-fingerprinting.md)
+      * [3. Footprinting et fingerprinting](cfc/ict-182/injections-sql-et-social-engineering/3.-fingerprinting.md)
       * [4. Injections SQL](cfc/ict-182/injections-sql-et-social-engineering/4.-injections-sql.md)
       * [5. Web Shell](cfc/ict-182/injections-sql-et-social-engineering/5.-installation-dun-script-shell-sur-le-serveur-web.md)
       * [6. Social Engineering](cfc/ict-182/injections-sql-et-social-engineering/6.-social-engineering-toolkit.md)
