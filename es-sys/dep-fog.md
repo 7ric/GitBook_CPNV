@@ -6,7 +6,7 @@ description: Déploiement de stations et d'applications avec Free Open Ghost
 
 [FOG, pour Free Open-Source Ghost](https://fogproject.org/), est une solution de clonage et de déploiement de systèmes d'exploitation et de logiciels sur des postes PC. Les systèmes d'exploitation supportés sont Windows et Linux.
 
-![](.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
 ## Objectifs du laboratoire
 

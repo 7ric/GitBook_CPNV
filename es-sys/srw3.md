@@ -9,7 +9,7 @@ description: >-
 
 ## CAS Enterprise Single Sign-On et Reverse Proxy
 
-![](.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 CAS, ou Central Authentication Service, est un protocole Open Source à authentification unique pour le Web. CAS donne aux utilisateurs l'accès à plusieurs applications à l'aide d'une seule connexion et permet aux applications Web d'authentifier les utilisateurs sans leur donner accès à leurs mots de passe. CAS comporte un composant serveur Java et diverses bibliothèques client écrites en PHP , PL/ SQL , Java , etc.
 
@@ -50,7 +50,7 @@ Dans ce module, nous aborderons l'architecture et les fonctionnalités de CAS, a
 
 Dans ce module vous allez installer un serveur CAS Enterprise Single Sign-On utilisant un annuaire LDAP. Pour plus de sécurité, une double authentification sera mise en place. Un serveur reverse proxy sera utilisé pour la gestion du protocole https et pour rediriger les requêtes sur le bon serveur présent dans le LAN. L'authentification des serveurs SSL ainsi que l’échange d'information entre les serveurs \(WEB,CAS,LDAP…\) doit être sécurisé et utiliser des certificats x509. Toute l'infrastructure sera réalisée sous Linux.
 
-![](.gitbook/assets/2020_srw3_sit2b.jpg)
+![](../.gitbook/assets/2020_srw3_sit2b.jpg)
 
 {% hint style="info" %}
 Seule la machine Reverse Proxy à une interface accessible depuis le WAN.
@@ -58,7 +58,7 @@ Seule la machine Reverse Proxy à une interface accessible depuis le WAN.
 
 #### Serveur PROXY
 
-![](.gitbook/assets/image%20%2814%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 [http://www.squid-cache.org/](http://www.squid-cache.org/)  
 [https://fr.wikipedia.org/wiki/Squid\_\(logiciel\)](https://fr.wikipedia.org/wiki/Squid_%28logiciel%29)
@@ -74,11 +74,11 @@ Comme serveur proxy, nous allons utiliser le **serveur Squid** qui est un logici
 
 Un **serveur Squid** est un **serveur** mandataire \(**proxy**\) et un mandataire inverse conçu pour relayer les protocoles FTP, HTTP, Gopher, et HTTPS. Contrairement aux **serveurs proxy** classiques, un **serveur Squid** gère toutes les requêtes en un seul processus d'entrée/sortie asynchrone.
 
-![](.gitbook/assets/image%20%2815%29.png)
+![](../.gitbook/assets/image%20%2815%29.png)
 
 #### Serveur LDAP
 
-![](.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%283%29.png)
 
 [https://fr.wikipedia.org/wiki/Lightweight\_Directory\_Access\_Protocol](https://fr.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)  
 [https://www.openldap.org/](https://www.openldap.org/)
@@ -137,7 +137,7 @@ moodle.cpnv-srw3.ch → Serveur Moodle
 [https://fr.wordpress.com/](https://fr.wordpress.com/)  
 [http://weblog.plexobject.com/?p=1682](http://weblog.plexobject.com/?p=1682)
 
-![](.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2811%29.png)
 
 WordPress est un système de gestion de contenu gratuit, libre et open-source. Ce logiciel écrit en PHP repose sur une base de données MySQL et est distribué par la fondation WordPress.org.
 
@@ -149,7 +149,7 @@ WordPress est un système de gestion de contenu gratuit, libre et open-source. C
 
 ​[https://moodle.org/plugins/auth\_casattras](https://moodle.org/plugins/auth_casattras)
 
-![](.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
 Moodle est une plateforme d'apprentissage en ligne libre distribuée sous la Licence publique générale GNU écrite en PHP. Développée à partir de principes pédagogiques, elle permet de créer des communautés s'instruisant autour de contenus et d'activités.
 
@@ -159,7 +159,7 @@ Moodle est une plateforme d'apprentissage en ligne libre distribuée sous la Lic
 
 #### Double authentification \[BONUS\]
 
-![](.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%286%29.png)
 
 [https://fr.wikipedia.org/wiki/Double\_authentification](https://fr.wikipedia.org/wiki/Double_authentification)  
 [https://apereo.github.io/cas/6.1.x/mfa/DuoSecurity-Authentication.html](https://apereo.github.io/cas/6.1.x/mfa/DuoSecurity-Authentication.html)  
@@ -171,7 +171,7 @@ La double authentification est une méthode d'authentification forte par laquell
 
 #### Proof Of Concept
 
-![](.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
 {% hint style="info" %}
 Configurez un client de votre choix dans le WAN pour que toutes les requêtes en direction du domaine **cpnv-srw3.ch** soient redirigé vers le serveur Reverse Proxy

@@ -6,7 +6,7 @@ description: 'Implémenter une infrastructure (DNS, DHCP et LDAP) sous Linux'
 
 
 
-![](.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%285%29.png)
 
 ## Introduction
 
@@ -42,13 +42,13 @@ description: 'Implémenter une infrastructure (DNS, DHCP et LDAP) sous Linux'
 
 ## Présentation de l'infrastructure
 
-![](.gitbook/assets/image.png)
+![](../.gitbook/assets/image.png)
 
 La configuration des serveurs est définie statiquement. Les clients obtiennent leur configuration par l'intermédiaire du serveur DHCP. Le serveur DNS doit être configuré pour que les machines clientes puissent utiliser les noms des serveurs.
 
 ### SRV-LIN2-01
 
-![](.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%283%29.png)
 
 L’objectif principal de ce module est d’effectuer l’installation et la configuration d’un serveur d’infrastructure \(DNS, DHCP et LDAP\) complet basé sur des briques libres.
 
@@ -70,7 +70,7 @@ L'administration de serveur se fera exclusivement en ligne de commande et à dis
 
 ### SRV-LIN2-02
 
-![](.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 
 Le second objectif de ce module est de faire découvrir l’installation d’un service Cloud, plus spécifiquement [ownCloud](https://owncloud.org/). L’installation de ownCloud permet de déployer facilement un service cloud permettant, l’hébergement de données, d’agendas, d’images, la synchronisation de ces données entre plusieurs terminaux ainsi que leur partage.
 
@@ -88,7 +88,7 @@ Le stockage des données des utilisateurs se fera sur le serveur `NAS-LIN2-01`.
 
 #### Authentification SSH par clef
 
-![](.gitbook/assets/image%20%2810%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 
 Lorsque l’on souhaite se connecter à un serveur via SSH, l’authentification repose par défaut sur un nom d’utilisateur et un mot de passe. Cependant, les mots de passe sont à la fois très peu sécurisés, difficiles à retenir et pénibles à écrire : ils ne sont efficaces face aux ordinateurs qu’à la condition d’être très contraignants, voire inutilisables, pour les humains.
 
@@ -104,7 +104,7 @@ La connexion aux serveurs **SRV-LIN2-01** et **SRV-LIN2-02** sera basée sur une
 
 ### NAS-LIN2-01
 
-![](.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 
 Le troisième objectif de ce module est la mise en production d’un SAN. Le stockage des données utilisateur se fera en utilisant un serveur en **RAID 1** \(logiciel\) à l’aide de la distribution [OpenMediaVault](https://www.openmediavault.org/).
 
@@ -122,19 +122,19 @@ Pour tester votre infrastructure, **2 machines clientes** seront utilisées. Une
 **L**e réseau virtuel utilisé dans ce laboratoire \(vswitch dédié HOST ONLY\) ne doit avoir aucune liaison avec le réseau du CPNV.
 {% endhint %}
 
-{% file src=".gitbook/assets/srv-lin2-01.ova" caption="SRV-LIN2-01" %}
+{% file src="../.gitbook/assets/srv-lin2-01.ova" caption="SRV-LIN2-01" %}
 
-{% file src=".gitbook/assets/srv-lin2-02.ova" caption="SRV-LIN2-02" %}
+{% file src="../.gitbook/assets/srv-lin2-02.ova" caption="SRV-LIN2-02" %}
 
-{% file src=".gitbook/assets/nas-lin2-01.ova" caption="NAS-LIN2-01" %}
+{% file src="../.gitbook/assets/nas-lin2-01.ova" caption="NAS-LIN2-01" %}
 
-{% file src=".gitbook/assets/lin2-client-linux.ova" caption="LIN2-Client-Linux" %}
+{% file src="../.gitbook/assets/lin2-client-linux.ova" caption="LIN2-Client-Linux" %}
 
-{% file src=".gitbook/assets/lin2-client-windows.ova" caption="LIN2-Client-Windows" %}
+{% file src="../.gitbook/assets/lin2-client-windows.ova" caption="LIN2-Client-Windows" %}
 
 ## Arborescence des données de l'infrastructure \(Utilisateurs et quotas\)
 
-![](.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image%20%281%29.png)
 
 {% hint style="info" %}
 La gestion des groupes, des utilisateurs et des droits d’accès sur les partages se fait en utilisant l’annuaire **LDAP** installé sur le serveur `SRV-LIN2-01`.
@@ -148,7 +148,7 @@ La gestion des groupes, des utilisateurs et des droits d’accès sur les partag
 2. Document de mise en service : script d’installation \(lignes de commande\) et de configuration des serveurs \(modification des fichiers de configuration\) \(**20%**\)
 3. POC \(Proof Of Concept\) \(**60%**\)
 
-{% file src=".gitbook/assets/lin2\_poc.pdf" caption="Proof Of Concept \(Grille d\'évaluation\)" %}
+{% file src="../.gitbook/assets/lin2\_poc.pdf" caption="Proof Of Concept \(Grille d\'évaluation\)" %}
 
 Votre document sera évalué selon les critères suivants :
 
