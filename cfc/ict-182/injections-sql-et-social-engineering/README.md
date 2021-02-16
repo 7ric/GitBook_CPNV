@@ -1,6 +1,6 @@
 # Injections SQL et Social Engineering
 
-![](../../.gitbook/assets/image%20%2823%29.png)
+![](../../../.gitbook/assets/image%20%2823%29.png)
 
 {% embed url="https://fr.wikipedia.org/wiki/Injection\_SQL" %}
 
